@@ -1,0 +1,131 @@
+{
+  "settings": {
+    "name": "ThankYou",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": [
+        "#212121"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.8.10",
+    "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/happy-new-year-128x85.png",
+    "noImageResize": "",
+    "google-analytics": "",
+    "uniqCompNum": 5,
+    "versionPublish": "4.8.10"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/happy-new-year-1254x836.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0"
+          },
+          "title": "<br><br><br><br><br><br><br><br><br><br><br>thanks for being part of the team!<br>",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">For MAC</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-1",
+          "_styles": {
+            "H1": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "46px",
+              "text-align": "center",
+              "color": "#f2f2f2"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/sancerre-1200x900.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.5"
+          },
+          "title": "Hope you'll enjoy the wine...",
+          "caption": "<p>This wine comes from a tiny region in the center of france famous for its wine and food called <a href=\"https://en.wikipedia.org/wiki/Sancerre_(wine)\">Sancerre</a>. </p><p>My home town is about 50 miles away from there and while the center of france is relatively flat and mostly covered in forest, this area combines hills and flats. It's also located right on the longest river in France. <br>The geography and moderate climate of this area make it a good place for winemaking.<br><span style=\"font-size: 1.25rem;\"><br>Romans cultivated the area in the first centuries AD, perhaps already wine.&nbsp;</span></p><p><a href=\"https://www.vivino.com/domaine-de-la-vauvise-les-trois-terroirs-sancerre-sancerre/w/1714816\">https://www.vivino.com/domaine-de-la-vauvise-les-trois-terroirs-sancerre-sancerre/w/1714816</a></p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-2",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "color": "#f8f8f6"
+            },
+            "P": {
+              "color": "#f2f2f2",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "googleMap": {
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1362458.7039532682!2d2.108229046489012!3d47.64595129167087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf4d6fa5a37a905fd!2sDomaine+Bernard+Fleuriet+et+Fils!5e0!3m2!1sen!2sus!4v1545937434177\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+              "placeId": "iframe",
+              "state": "ok"
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-4"
+        }
+      ]
+    }
+  }
+}
